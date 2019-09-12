@@ -1290,4 +1290,5 @@ function svgalphatest(properties::Vector{Property})
     has_alpha && @warn "For svg transparent colors, use either e.g. fill(RGBA(r,g,b,a)) or fillopacity(a), but not both."
 end
 
-
+## bring back abandoned path primitives
+include("abandoned_svg.jl")

@@ -790,8 +790,5 @@ function xgon(xs::AbstractVector, ys::AbstractVector, rs::AbstractVector, ns::Ab
     return Form{PrimType}(polyprims, tag)
 end
 
-
-
-
-
-
+## bring back abandoned path primitives
+include("abandoned_form.jl")

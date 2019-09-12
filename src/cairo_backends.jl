@@ -852,6 +852,5 @@ function arrowhead(img::Image, point::Vec, vl::Float64, θ::Float64)
     line_to(img, (xmax+xr[2], ymax+yr[2]))
 end
 
-
-
-
+## bring back abandoned path primitives
+include("abandoned_cairo.jl")
